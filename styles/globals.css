@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+/* Deklarasi Variabel Tema untuk Tailwind v4 */
+@theme {
+  --color-dark: #050505;
+  --color-crimson: #ff0000;
+  --color-slate: #111111;
+  
+  --shadow-glow-red: 0 0 20px rgba(255, 0, 0, 0.3);
+  --shadow-glow-red-strong: 0 0 50px rgba(255, 0, 0, 0.6);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    /* Gunakan warna hex langsung atau variabel @theme di atas */
+    background-color: #050505; 
+    color: #ffffff;
+    overflow-x: hidden;
+    font-family: 'JetBrains Mono', monospace;
+  }
+  
+  ::selection {
+    background-color: #ff0000;
+    color: #ffffff;
+  }
+}
+
+/* Custom Glow Effects */
+.red-glow-text {
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.8), 0 0 20px rgba(255, 0, 0, 0.4);
+}
+
+.glass-card {
+  background-color: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  border-radius: 2.5rem;
+  transition: all 0.5s ease;
+}
+
+.glass-card:hover {
+  border-color: rgba(255, 0, 0, 0.4);
+  background-color: rgba(255, 255, 255, 0.07);
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.3);
+  transform: translateY(-5px);
+}
+
+/* Kustom Scrollbar */
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+::-webkit-scrollbar-thumb {
+  background: #ff0000;
+  border-radius: 10px;
+}
+
+/* Scanline Effect */
+.scanline {
+  width: 100%;
+  height: 2px;
+  background: rgba(255, 0, 0, 0.1);
+  position: fixed;
+  z-index: 999;
+  pointer-events: none;
+  animation: scanline 8s linear infinite;
+}
+
+@keyframes scanline {
+  0% { top: -5%; }
+  100% { top: 100%; }
+}
+
