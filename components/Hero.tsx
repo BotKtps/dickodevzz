@@ -37,7 +37,7 @@ const itemVars: any = {
         className="grid lg:grid-cols-12 gap-16 items-center"
       >
         {/* KOLOM KIRI: TEKS UTAMA */}
-        <div className="lg:col-span-8 space-y-8">
+        <div className="lg:col-span-12 flex flex-col items-center text-center space-y-8">
           
           {/* BADGE STATUS */}
           <motion.div variants={itemVars} className="inline-flex items-center gap-3 px-4 py-2 rounded-full border border-crimson/30 bg-crimson/5 backdrop-blur-md">
@@ -50,17 +50,19 @@ const itemVars: any = {
             </span>
           </motion.div>
 
-          {/* JUDUL UTAMA */}
-          <motion.div variants={itemVars}>
-            <h2 className="text-gray-500 font-medium text-lg md:text-xl mb-4 italic">
-              Halo, Saya Dicko Alvino Aditiya
-            </h2>
-          <h1 className="text-[12vw] md:text-[8rem] font-black tracking-tighter leading-[0.85] uppercase">
-  DICKO <br /> 
-  <span className="text-crimson red-glow-text italic">DEVELOPER</span>
-</h1>
-          
-          </motion.div>
+  <motion.div variants={itemVars} className="flex flex-col items-center">
+    <h2 className="text-gray-500 font-medium text-lg md:text-xl mb-4 italic">
+      Halo, Saya Dicko Alvino Aditiya
+    </h2>
+    <h1 className="text-[13vw] md:text-[8rem] font-black tracking-tighter leading-[0.85] uppercase">
+      DICKO <br /> 
+      <span className="text-crimson red-glow-text italic">DEVELOPER</span>
+    </h1>
+    <div className="flex flex-col md:flex-row gap-4 mt-10 items-center justify-center">
+       {/* Tombol kamu di sini */}
+    </div>
+  </motion.div>
+</section>
 
           {/* DESKRIPSI MANUSIAWI */}
           <motion.p variants={itemVars} className="max-w-2xl text-gray-400 text-sm md:text-lg leading-relaxed">
