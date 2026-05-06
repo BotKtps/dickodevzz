@@ -13,10 +13,16 @@ export default function Hero({ totalProjects }: HeroProps) {
     }
   };
 
-  const itemVars = {
-    initial: { opacity: 0, y: 20 },
-    animate: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } }
-  };
+  // Ubah ini
+const itemVars: any = { 
+  initial: { opacity: 0, y: 20 },
+  animate: { 
+    opacity: 1, 
+    y: 0, 
+    transition: { duration: 0.8 } 
+  }
+};
+
 
   return (
     <section id="home" className="min-h-screen flex flex-col justify-center px-6 md:px-20 max-w-7xl mx-auto pt-32 pb-20 relative">

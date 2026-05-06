@@ -1,13 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   typescript: {
-    // Memaksa build tetap jalan meski ada error tipe data
-    ignoreBuildErrors: true,
+    // Ini akan memaksa Vercel mengabaikan error tipe data saat build
+    ignoreBuildErrors: true, 
   },
   eslint: {
-    // Memaksa build tetap jalan meski ada peringatan kode
+    // Ini akan mengabaikan peringatan aturan kode (linting)
     ignoreDuringBuilds: true,
   },
+  // Tambahan untuk memastikan build lebih stabil di Vercel
+  swcMinify: true,
 };
 
 export default nextConfig;
