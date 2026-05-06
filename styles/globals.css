@@ -18,8 +18,11 @@
     /* Gunakan warna hex langsung atau variabel @theme di atas */
     background-color: #050505; 
     color: #ffffff;
+    max-width: 100vw;
     overflow-x: hidden;
     font-family: 'JetBrains Mono', monospace;
+    margin: 0;
+    padding: 0;
   }
   
   ::selection {
