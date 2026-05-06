@@ -2,9 +2,9 @@ import { motion } from 'framer-motion';
 
 export default function Contact() {
   const kontakSertifikasi = [
-    { label: "Surat Elektronik", value: "dickop@dickodevz.id", tautan: "mailto:dickop@dickodevz.id" },
-    { label: "Pesan WhatsApp", value: "+62 8xx-xxxx-xxxx", tautan: "https://wa.me/628xxxxxxxx" },
-    { label: "Koleksi Kode (GitHub)", value: "github.com/dickop", tautan: "https://github.com/dickop" }
+    { label: "Surat Elektronik", value: "help@dickodevz.id", tautan: "mailto:help@dickodevz.id" },
+    { label: "Pesan WhatsApp", value: "+62 821-5891-0417", tautan: "https://wa.me/6282158910417" },
+    { label: "Koleksi Kode (GitHub)", value: "github.com/BotKtps", tautan: "https://github.com/BotKtps" }
   ];
 
   return (
