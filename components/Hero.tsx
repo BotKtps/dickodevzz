@@ -56,8 +56,8 @@ const itemVars: any = {
               Halo, Saya Dicko Alvino Aditiya
             </h2>
           <h1 className="text-[12vw] md:text-[8rem] font-black tracking-tighter leading-[0.85] uppercase">
-  MEMBANGUN <br /> 
-  <span className="text-crimson red-glow-text italic">MASA DEPAN_</span>
+  DICKO <br /> 
+  <span className="text-crimson red-glow-text italic">DEVELOPER</span>
 </h1>
           
           </motion.div>
@@ -85,7 +85,7 @@ const itemVars: any = {
           <StatCard number={totalProjects} label="Proyek Selesai" suffix="+" />
           <StatCard number={50} label="Bug Ditemukan" suffix="+" />
           <StatCard number={12} label="Alat Dikembangkan" suffix="" />
-          <StatCard number={3} label="Tahun Pengalaman" suffix="+" />
+          <StatCard number={2} label="Tahun Pengalaman" suffix="+" />
         </motion.div>
 
       </motion.div>
