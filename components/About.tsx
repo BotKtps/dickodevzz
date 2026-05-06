@@ -22,7 +22,7 @@ export default function About() {
         >
           <div>
             <h2 className="text-crimson font-bold text-sm tracking-[0.4em] uppercase mb-4 tracking-tighter">
-              [ 02. Tentang Saya ]
+              [ 02. About ]
             </h2>
             <h3 className="text-4xl md:text-6xl font-black uppercase leading-none tracking-tighter">
               DEDIKASI PADA <br /> <span className="text-white opacity-20 italic underline decoration-crimson underline-offset-8">TEKNOLOGI</span>
@@ -31,13 +31,10 @@ export default function About() {
 
           <div className="space-y-6 text-gray-400 text-sm md:text-base leading-relaxed">
             <p>
-              Saya adalah seorang pembelajar aktif yang memiliki ketertarikan mendalam pada ekosistem digital. Saat ini, saya sedang menempuh pendidikan di <span className="text-white font-bold">SMKN 2 Banjarbaru</span> dengan fokus pada jurusan <span className="text-crimson font-bold">Teknik Jaringan Komputer dan Telekomunikasi (TJKT)</span>.
+            Dicko Devz adalah ruang di mana inovasi pengembangan web bertemu dengan keamanan siber. Sebagai seorang Web Developer dan Bug Hunter, saya tidak hanya membangun aplikasi yang responsif, cepat, dan modern menggunakan teknologi seperti Next.js, Laravel, dan Node.js, tetapi juga memastikan bahwa sistem tersebut aman dari berbagai ancaman siber.
             </p>
             <p>
-              Bagi saya, teknologi bukan sekadar tentang perangkat keras, melainkan bagaimana kita bisa menghubungkan ide dengan realitas melalui kode yang aman dan efisien. Saya menggabungkan pemahaman mendalam tentang infrastruktur jaringan dengan keahlian dalam membangun aplikasi web modern.
-            </p>
-            <p>
-              Fokus utama saya adalah memberikan solusi yang tidak hanya fungsional secara teknis, tetapi juga memberikan pengalaman yang memuaskan bagi pengguna akhir.
+            Dengan pola pikir seorang developer sekaligus hacker (etis), saya menciptakan solusi digital dengan pendekatan secure by design sampai menganalisis arsitektur, menutup celah kerentanan, dan memberikan pengalaman pengguna yang mulus sekaligus terlindungi. Build fast, secure first.
             </p>
           </div>
 
@@ -52,7 +49,7 @@ export default function About() {
         {/* KOLOM KANAN: KEAHLIAN TEKNIS */}
         <div className="space-y-8">
           <h2 className="text-[10px] text-gray-600 font-black tracking-[0.5em] mb-10 uppercase text-right italic">
-            Keahlian_Utama
+            Keahlian
           </h2>
           
           <div className="grid sm:grid-cols-2 gap-4">
