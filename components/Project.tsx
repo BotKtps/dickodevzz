@@ -17,10 +17,10 @@ export default function Project() {
       warna: "from-green-600/20"
     },
     {
-      nama: "Beat Trondol Project",
-      tipe: "Seni Otomotif",
-      cerita: "Eksperimen kustomisasi performa dan visual pada sepeda motor Honda Beat, menggabungkan mekanik mesin dengan estetika minimalis.",
-      alat: ["Performance Tuning", "Custom Wiring", "Visual Design"],
+      nama: "Progamming Tools",
+      tipe: "Pengembangan Web",
+      cerita: "Kumpulan utilitas web praktis seperti encoder, formatter, dan hash generator untuk mempercepat alur kerja coding dan bug hunting dalam satu platform.",
+      alat: ["next.js", "Api Integration", "Tailwind CSS", "PHP", "Database"],
       warna: "from-crimson/20"
     },
     {
@@ -36,10 +36,10 @@ export default function Project() {
     <section id="project" className="py-32 px-6 md:px-20 max-w-7xl mx-auto">
       <div className="mb-20">
         <h2 className="text-crimson font-bold text-sm tracking-[0.4em] uppercase mb-4 tracking-tighter">
-          [ 03. Karya Terpilih ]
+          [ 03. Project ]
         </h2>
         <h3 className="text-4xl md:text-6xl font-black uppercase leading-none tracking-tighter">
-          SOLUSI <br /> <span className="text-white opacity-20 italic">DIGITAL</span>
+          PROJECT <br /> <span className="text-white opacity-20 italic">DIGITAL</span>
         </h3>
       </div>
 
@@ -86,7 +86,7 @@ export default function Project() {
       {/* Catatan Kaki Proyek */}
       <div className="mt-16 text-center">
         <p className="text-gray-600 text-[10px] font-medium uppercase tracking-[0.4em]">
-          Eksplorasi lebih lanjut di <a href="https://github.com/dickop" className="text-crimson hover:text-white transition-colors">GitHub Saya</a>
+          Eksplorasi lebih lanjut di <a href="https://github.com/botktps" className="text-crimson hover:text-white transition-colors">GitHub Saya</a>
         </p>
       </div>
     </section>
