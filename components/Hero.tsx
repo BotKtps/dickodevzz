@@ -55,10 +55,11 @@ const itemVars: any = {
             <h2 className="text-gray-500 font-medium text-lg md:text-xl mb-4 italic">
               Halo, Saya Dicko Alvino Aditiya
             </h2>
-            <h1 className="text-6xl md:text-[8.5rem] font-black tracking-tighter leading-[0.85] uppercase">
-              MEMBANGUN <br /> 
-              <span className="text-crimson red-glow-text italic">MASA DEPAN_</span>
-            </h1>
+          <h1 className="text-[12vw] md:text-[8rem] font-black tracking-tighter leading-[0.85] uppercase">
+  MEMBANGUN <br /> 
+  <span className="text-crimson red-glow-text italic">MASA DEPAN_</span>
+</h1>
+          
           </motion.div>
 
           {/* DESKRIPSI MANUSIAWI */}
